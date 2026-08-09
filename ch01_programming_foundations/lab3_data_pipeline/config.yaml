@@ -1,0 +1,9 @@
+stages:
+  - type: ingest
+    path: input.csv
+  - type: validate
+  - type: transform
+    rename:
+      old_col: new_col
+  - type: export
+    path: output.parquet

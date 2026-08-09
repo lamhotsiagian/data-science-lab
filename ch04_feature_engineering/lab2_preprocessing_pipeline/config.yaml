@@ -1,0 +1,7 @@
+numeric_cols:
+  - age
+  - income
+categorical_cols:
+  - city
+datetime_cols:
+  - signup_date
